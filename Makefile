@@ -54,3 +54,6 @@ include base.mk
 #PROJECT := project
 .PHONY: serve
 serve: django-serve-webpack
+
+logo:
+	python logo.py
