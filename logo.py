@@ -41,7 +41,7 @@ def create_image(filename):
     d.multiline_text((xoffset, yoffset), "$ make …", font=fnt, fill=(255, 255, 255))
 
     fontname = filename.split(".")[0]  # Remove file extension
-    out.save("logo_%s.png" % fontname, "PNG")
+    out.save("logo.png", "PNG")
 
 
 if __name__ == "__main__":
